@@ -1,11 +1,11 @@
 # Site settings
-baseURL = "http://example.org/"
+baseURL = "http://www.marcusv.me"
 languageCode = "en-us"
-title = "Forty"
+title = "Marcus Virginia"
 theme = "forty"
 
 # Enter your tracking code to enable Google Analytics
-googleAnalytics = ""
+googleAnalytics = "UA-108580096-1"
 
 [params]
   # You can use Markdown syntax for urls [text](//url.to/source)
@@ -16,8 +16,8 @@ googleAnalytics = ""
   # CSS class.
 
   # Provide your metadata here.
-  name = "Your name"
-  description = "Your description"
+  name = "Marcus Virgina"
+  description = "My Portfolio Site"
 
   # Link custom assets relative to /static
   custom_css = []
@@ -34,8 +34,8 @@ googleAnalytics = ""
 
   # Navigation Section
   [params.navigation]
-    title = "Forty"
-    subtitle = "By HTML5 Up"
+    title = "Marcus"
+    subtitle = "Virginia"
     menu = "Menu"
     # Optional logo as brand stored in img/
     # logo = "logo.png"
@@ -49,12 +49,12 @@ googleAnalytics = ""
       url = "blogs"
 
     [[params.navigation.links]]
-      name = "Generic Blog"
-      url = "blogs/ipsum"
+      name = "Projects"
+      url = "projects"
 
     [[params.navigation.links]]
-      name = "Elements"
-      url = "elements.html"
+      name = "About Me"
+      url = "about-me"
 
     # Add custom links here by uncommenting code below. To remove links just delete
     # the [[params.navigation.links]] map associated with that link. Copy and paste
@@ -65,12 +65,12 @@ googleAnalytics = ""
 
     # Button Style 1
     [[params.navigation.button1]]
-      name = "Get Started"
-      url = "blogs"
+      name = "My Résumé"
+      url = "https://resume.marcusv.me"
 
     # Button Style 2
     [[params.navigation.button2]]
-      name = "Log In"
+      name = "Social Media"
       url = "#"
 
 
@@ -78,9 +78,9 @@ googleAnalytics = ""
   [params.banner]
     # To change the background image on the homepage banner, replace 'banner.jpg' in
     # the 'static/img' folder.
-    title = "Hi, my name is Forty"
-    subtitle = "A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP\nAND RELEASED UNDER THE CREATIVE COMMONS."
-    buttonText = "Get Started"
+    title = "WELCOME"
+    subtitle = "I LOVE TO DEVELOP, CREATE, AND LEARN USING THE POWER OF THE WEB. TECH IS MY PASSION; LIFESTYLE IS MY HOBBY."
+    buttonText = "Check out what I have done"
 
 
   # Tiles Section
@@ -89,38 +89,38 @@ googleAnalytics = ""
     # Display your showcases here.
     
     [[params.tiles.showcase]]
-      title = "Aliquam"
-      subtitle = "Ipsum Dolor Sit Amet"
+      title = "My Blog"
+      subtitle = "My recent blog posts"
       image = "pic01.jpg"
       url = "blogs/aliquam"
 
     [[params.tiles.showcase]]
-      title = "Tempus"
-      subtitle = "Feugiat Amet Tempus"
+      title = "My Portfolio"
+      subtitle = "My featured projects and projects I am currently working on"
       image = "pic02.jpg"
       url = "blogs/tempus"
 
     [[params.tiles.showcase]]
-      title = "Magna"
-      subtitle = "Lorem Etiam Nullam"
+      title = "Livio Health Website"
+      subtitle = "Company website I built using Hugo"
       image = "pic03.jpg"
       url = "blogs/magna"
 
     [[params.tiles.showcase]]
-      title = "Ipsum"
-      subtitle = "Nisl Sed Aliquam"
+      title = "Artemis Text Editor"
+      subtitle = "A simple text editor that can run in the browser or on mobile"
       image = "pic04.jpg"
       url = "blogs/ipsum"
 
     [[params.tiles.showcase]]
-      title = "Consequat"
-      subtitle = "Ipsum Dolor Sit Amet"
+      title = "Java Polynomial Project"
+      subtitle = "A small java project used for adding polynomials together"
       image = "pic05.jpg"
       url = "blogs/ipsum"
 
     [[params.tiles.showcase]]
-      title = "Etiam"
-      subtitle = "Feugiat Amet Tempus"
+      title = "Hugo Forty Theme"
+      subtitle = "A theme I ported over to Hugo, which is featured on their site gohugo.io"
       image = "pic06.jpg"
       url = "blogs/ipsum"
     # You can make more showcases by copy and pasting the code above
@@ -134,8 +134,8 @@ googleAnalytics = ""
 
   # Section Type Two
   [params.two]
-    enable = true
-    title = "Massa libero"
+    enable = false
+    title = "Lifestyle and Fashion Blogs"
     subtitle = """Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. 
     Mauris aliquet magna magna sed nunc rhoncus pharetra. 
     Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. 
@@ -148,7 +148,7 @@ googleAnalytics = ""
   # Contact section
   [params.contact]
     enable = true
-    buttonSend = "Send message"
+    buttonSend = "Send me a message"
     buttonClear = "Clear"
 
     # Since this template is static, the contact form uses www.formspree.io as a
@@ -162,55 +162,61 @@ googleAnalytics = ""
     # - send a dummy email yourself to confirm your account
     # - click the confirm link in the email from www.formspree.io
     # - you're done. Happy mailing!
+    formEmail = "marcusvirg345@gmail.com"
 
     # Contact Section
     # You can add multiple emails, phone numbers, or addresses
     # by copying the corresponding map with frontmatter code.
     [[params.contact.email]]
     title = "Email"
-    email = "example@domain.com"
+    email = "marcusvirg345@gmail.com"
 
     [[params.contact.phone]]
     title = "Phone"
-    phone = "(000) 000-0000 x1234"
+    phone = "(218) 591-0657"
 
     [[params.contact.address]]
     title = "Address"
-    street = "Street"
-    city = "City, ST 00000"
-    country = "Country"
+    street = "University of Minnesota"
+    city = "Minneapolis, MN"
+    country = "United States"
 
   # Footer section
   [params.footer]
     enable = true
-    copyright = "Company Name"
+    copyright = "Marcus Virginia. All Rights Reserved."
 
     [[params.footer.social]]
       icon = "fa-twitter"
-      url= "https://www.twitter.com"
+      url= "https://twitter.com/MarcusVirg"
       label = "Twitter"
 
     [[params.footer.social]]
       icon = "fa-facebook"
-      url= "https://www.facebook.com"
+      url= "https://www.facebook.com/marcusvirg"
       label = "Facebook"
 
     [[params.footer.social]]
       icon = "fa-instagram"
-      url= "https://www.instagram.com"
+      url= "https://www.instagram.com/marcusv345"
       label = "Instagram"
     
     [[params.footer.social]]
       icon = "fa-github"
-      url= "https://www.github.com"
+      url= "https://github.com/MarcusVirg"
       label = "GitHub"
 
     [[params.footer.social]]
       icon = "fa-linkedin"
-      url= "https://www.linkedin.com"
+      url= "https://www.linkedin.com/in/marcus-virginia-99ba35140/"
       label = "LinkedIn"
 
+    [[params.footer.social]]
+      icon = "fa-pinterest"
+      url= "https://www.pinterest.com/marcusvirg345/"
+      label = "Pinterest"
+
     [[params.footer.quicklinks]]
-      text = "Design: "
-      url= "https://www.html5up.net"
-      alt = "HTML5 UP"
+      text = "Currently Work for: "
+      url= "https://www.liviohealth.org"
+      alt = "Livio Health Group"

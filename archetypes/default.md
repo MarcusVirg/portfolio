@@ -4,9 +4,11 @@ description: ""
 slug: ""
 image: ""
 keywords: ""
-categories: 
+categories:
+
     - "{{ replace .TranslationBaseName "-" " " | title }}"
     - ""
+
 date: {{ .Date }}
 draft: true
 ---
