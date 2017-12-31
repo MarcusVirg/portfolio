@@ -22,11 +22,11 @@ My name is Marcus. I was born in Minnesota in 1996. I grew up in a really small 
 + HTML & CSS
 + Javscript
 + Django
-+ Vuejs
++ Vue.js
 + React
 + Material Design by Google
 + Hugo
-+ Nodejs
++ Node.js
 + Ionic/Cordova
 
 Do you want a static website built for your blog or company? Need help on any current projects? Just want to collaborate with me? Send me a message using the form below or send me an email at [marcusvirg345@gmail.com](mailto:marcusvirg345@gmail.com)
