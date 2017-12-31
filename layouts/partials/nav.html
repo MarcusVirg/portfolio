@@ -16,7 +16,7 @@
         </ul>
         <ul class="actions vertical">
             {{ range .Site.Params.Navigation.button1 }}
-                <li><a href="{{ .url | absURL}}" class="button special fit">{{ .name }}</a></li>
+                <li><a href="{{ .url | absURL}}" class="button special fit icon fa-download">{{ .name }}</a></li>
             {{ end }}
             {{ range .Site.Params.Navigation.button2 }}
                 <li><a href="{{ .url | absURL}}" class="button fit">{{ .name }}</a></li>

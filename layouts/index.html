@@ -2,6 +2,7 @@
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
 
 	{{ partial "header.html" . }}
+	{{ template "_internal/google_analytics_async.html" . }}
 	<body>
 
 	{{ "<!-- Wrapper -->" | safeHTML }}
