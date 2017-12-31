@@ -1,5 +1,5 @@
 # Site settings
-baseURL = "http://www.marcusv.me"
+baseURL = "https://www.marcusv.me"
 languageCode = "en-us"
 title = "Marcus Virginia"
 theme = "forty"
