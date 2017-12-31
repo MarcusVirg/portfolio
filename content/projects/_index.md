@@ -11,5 +11,5 @@ categories:
     - "Projects"
 
 date: 2017-12-01T18:12:35-06:00
-draft: true
+draft: false
 ---

@@ -10,6 +10,6 @@ categories:
     - ""
 
 date: 2017-12-05T00:28:50-06:00
-draft: true
+draft: false
 ---
-
+# Blog should be released this summer

@@ -10,7 +10,7 @@ categories:
     - ""
 
 date: 2017-11-18T21:35:21-05:00
-draft: true
+draft: false
 ---
 # Bio
 
