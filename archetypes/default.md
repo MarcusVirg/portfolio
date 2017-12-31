@@ -3,6 +3,7 @@ title: "{{ replace .TranslationBaseName "-" " " | title }}"
 description: ""
 slug: ""
 image: ""
+tags: []
 keywords: ""
 categories:
 

@@ -7,6 +7,9 @@ theme = "forty"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = "UA-108580096-1"
 
+# Enter your disqus shortname to enable comments
+disqusShortname = "marcusv-me"
+
 [params]
   # You can use Markdown syntax for urls [text](//url.to/source)
   # To create multi-line text in strings use the """example Text""" format
@@ -16,8 +19,8 @@ googleAnalytics = "UA-108580096-1"
   # CSS class.
 
   # Provide your metadata here.
-  name = "Marcus Virgina"
-  description = "My Portfolio Site"
+  name = "Marcus Virginia"
+  description = "My Portfolio/Blog Site"
 
   # Link custom assets relative to /static
   custom_css = []
@@ -45,8 +48,8 @@ googleAnalytics = "UA-108580096-1"
       url = "#"
 
     [[params.navigation.links]]
-      name = "Blogs"
-      url = "blogs"
+      name = "Blog"
+      url = "page/coming-soon-blog"
 
     [[params.navigation.links]]
       name = "Projects"
@@ -54,7 +57,7 @@ googleAnalytics = "UA-108580096-1"
 
     [[params.navigation.links]]
       name = "About Me"
-      url = "about-me"
+      url = "page/about-me"
 
     # Add custom links here by uncommenting code below. To remove links just delete
     # the [[params.navigation.links]] map associated with that link. Copy and paste
@@ -92,37 +95,37 @@ googleAnalytics = "UA-108580096-1"
       title = "My Blog"
       subtitle = "My recent blog posts"
       image = "pic01.jpg"
-      url = "blogs/aliquam"
+      url = "page/coming-soon-blog"
 
     [[params.tiles.showcase]]
       title = "My Portfolio"
       subtitle = "My featured projects and projects I am currently working on"
-      image = "pic02.jpg"
-      url = "blogs/tempus"
+      image = "projects.jpg"
+      url = "projects/"
 
     [[params.tiles.showcase]]
       title = "Livio Health Website"
       subtitle = "Company website I built using Hugo"
-      image = "pic03.jpg"
-      url = "blogs/magna"
+      image = "liviologo.png"
+      url = "projects/livio-website"
 
     [[params.tiles.showcase]]
-      title = "Artemis Text Editor"
-      subtitle = "A simple text editor that can run in the browser or on mobile"
-      image = "pic04.jpg"
-      url = "blogs/ipsum"
+      title = "My Instagram"
+      subtitle = "Check out my instagram"
+      image = "insta.png"
+      url = "https://www.instagram.com/marcusv345"
 
     [[params.tiles.showcase]]
-      title = "Java Polynomial Project"
-      subtitle = "A small java project used for adding polynomials together"
-      image = "pic05.jpg"
-      url = "blogs/ipsum"
+      title = "Star Wars Name Generator"
+      subtitle = "A small python project that generates names based on Strings you feed it"
+      image = "swars.png"
+      url = "projects/sw-name"
 
     [[params.tiles.showcase]]
       title = "Hugo Forty Theme"
       subtitle = "A theme I ported over to Hugo, which is featured on their site gohugo.io"
-      image = "pic06.jpg"
-      url = "blogs/ipsum"
+      image = "tn.png"
+      url = "projects/hugo-forty"
     # You can make more showcases by copy and pasting the code above
 
   [params.blog]
@@ -173,7 +176,7 @@ googleAnalytics = "UA-108580096-1"
 
     [[params.contact.phone]]
     title = "Phone"
-    phone = "(218) 591-0657"
+    phone = "218-591-0657"
 
     [[params.contact.address]]
     title = "Address"

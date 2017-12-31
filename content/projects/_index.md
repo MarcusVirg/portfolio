@@ -1,14 +1,15 @@
 ---
-title: "My Projects"
-description: ""
+title: "Projects"
+description: "Projects I have done or are working on."
 slug: "projects"
-image: ""
-keywords: "java, website, "
+image: "projects.jpg"
+keywords: "web, development, software"
 categories:
 
-    - ""
-    - ""
+    - "Portfolio"
+    - "Software"
+    - "Projects"
 
-date: 2017-11-29T24:10:21-05:00
+date: 2017-12-01T18:12:35-06:00
 draft: true
 ---

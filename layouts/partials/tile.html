@@ -3,7 +3,7 @@
         {{ range .Site.Params.Tiles.showcase }}
         <article>
             <span class="image">
-                <img src="{{ .Site.Params.baseURL }}img/{{ .image }}" alt="" />
+                <img src="{{ .Site.Params.baseURL }}img/tile/{{ .image }}" alt="" />
             </span>
             <header class="major">
                 <h3><a href="{{ .url | absURL }}" class="link">{{ .title }}</a></h3>

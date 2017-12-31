@@ -18,13 +18,16 @@
                             <header class="major">
                                 <h1>{{ .Title}}</h1>
                             </header>
-                            <span class="image main"><img src="{{ .Site.Params.baseURL }}/img/blogs/{{ .Params.image }}" alt="" /></span>
+                            <span class="image main"><img src="{{ .Site.Params.baseURL }}/img/page/{{ .Params.image }}" alt="" /></span>
                             {{ .Content }}
                         </div>
                     </section>
-            {{ "<!-- Disqus Inject -->" | safeHTML }}
-                {{ partial "disqus.html" . }}
             </div>
+
+        {{ "<!-- Contact -->" | safeHTML}}
+			{{ if .Site.Params.Contact.enable }}
+				{{ partial "contact.html" . }}
+			{{ end }}
             
         {{ "<!-- Footer -->" | safeHTML}}
             {{ if .Site.Params.footer.enable }}
